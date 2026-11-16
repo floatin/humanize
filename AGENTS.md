@@ -30,3 +30,17 @@ For docs:
 
 - MUST update docs once any impl changes to avoid misalignment between code and docs.
 - MUST adhere to the minimal spec of [Standard Readme](https://raw.githubusercontent.com/RichardLitt/standard-readme/refs/heads/main/spec.md) for `README.md`.
+
+## Agent skills
+
+### Issue tracker
+
+Issues live as GitHub issues in `floatin/humanize`, driven by the `gh` CLI. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Five canonical roles, labelled `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: `GLOSSARY.md` and `docs/adr/` at the repo root, created lazily as terms and decisions are resolved. See `docs/agents/domain.md`.
